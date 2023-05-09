@@ -80,6 +80,10 @@ function operadoresLogicos(num1, num2, num3) {
    // Si todos los argumentos son cero, retornar ---> "Error".
    // Si no se cumple ninguna de las condiciones anteriores, retornar false.
    // Tu código:
+   if(num3>num2 && num3>num1){
+      return num3+1;
+   }
+
 }
 
 function esPrimo(num) {
